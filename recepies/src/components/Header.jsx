@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header className= "bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-md fixed top-0 flex-0 w-full z-10">
-    <div className="container mx-auto px-4 flex justify-between items-center  ">
+    <div className="container mx-auto px-4 py-4 flex justify-between items-center  ">
         <a href="/"className="text-2xl font-bold tracking-wide">
         Tasty Recipes
 

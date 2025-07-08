@@ -35,11 +35,11 @@ const RecepiesPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {recepiesList.map((recepie, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
+              <div className="w-full h-48 bg-gray-100 overflow-hidden">
                 <img 
                   src={recepie.image} 
                   alt={recepie.title} 
-                  className="max-w-full max-h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-4">

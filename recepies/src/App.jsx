@@ -30,12 +30,12 @@ export default App;
 const RecepiesPage = () => {
   const [recepiesList, setRecepiesList] =  useState(recepies);
   return (
-    <main className="pt-20 px-4 pb-24">
+    <main className="pt-20 px-6 pb-24">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           {recepiesList.map((recepie, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="w-full h-48 bg-gray-100 overflow-hidden">
+              <div className="w-full h-45 bg-gray-100 overflow-hidden">
                 <img 
                   src={recepie.image} 
                   alt={recepie.title} 
